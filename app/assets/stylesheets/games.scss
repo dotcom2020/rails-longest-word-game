@@ -1,0 +1,28 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Lato:wght@100;300;400;700;900&display=swap');
+
+body {
+  font-family: "lato", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 40px;
+}
+
+.container {
+
+}
+
+.inline {
+  display: inline;
+  padding: 15px 20px;
+  background-color: rgb(1, 129, 171);
+  color: white;
+  font-size: 2rem;
+  margin: 0 3px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 5px;
+}

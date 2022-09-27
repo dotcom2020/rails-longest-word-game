@@ -1,0 +1,14 @@
+<h1>Result</h1>
+
+<% if @included %>
+  <% if @exist %>
+    <p>Congratulations! <%= @chars.join %> is a valid ENGLISH word!</p>
+  <% else %>
+      <p>Sorry, but <%= @chars.join %> does not seem to be a valid english word.</p>
+  <% end %>
+
+<% else %>
+
+  <p>Sorry, but <%= @chars.join %> can't be built out of <%= @letters.join %></p>
+
+<% end %>
